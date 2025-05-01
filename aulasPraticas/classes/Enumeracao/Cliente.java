@@ -17,11 +17,12 @@ public class Cliente {
         };
 
         // Este método é abstrato pois precisa ser sobrescrito em outra parte do código, por isso não tem um "corpo".
+        // Não esqueça de dizer que é um método público.
         public abstract double descontos(double valor);
     }
     private String nome;
     private TipoCliente tipoCliente;
-    private TipoPagamento tipoPagamento;
+    private final TipoPagamento tipoPagamento;
 
     public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
         this.nome = nome;
