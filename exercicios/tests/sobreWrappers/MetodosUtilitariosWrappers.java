@@ -1,5 +1,5 @@
 package exercicios.tests.sobreWrappers;
-// Convertendo um valor hexadecimal em tipo Number.
+// Convertendo uma string em hexadecimal.
 public class MetodosUtilitariosWrappers {
     public static void main(String[] args) {
         String valorHexadecimal = "1c";
