@@ -1,4 +1,4 @@
-package aulasPraticas.classes.classesUtilitarias.sobreStrings.datas;
+package aulasPraticas.classes.classesUtilitarias.datas;
 
 import java.text.DateFormat;
 import java.util.Calendar;

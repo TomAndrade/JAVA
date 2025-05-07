@@ -1,4 +1,4 @@
-package aulasPraticas.classes.classesUtilitarias.sobreStrings.datas;
+package aulasPraticas.classes.classesUtilitarias.datas;
 
 import java.time.LocalDate;
 
