@@ -1,7 +1,7 @@
 package exercicios.dominio.enumeradores2;
 //Objetivo: Encapsular lógica associada às constantes.
 public class NivelJogo {
-    // Faz mais sentido que o enum DIficuldade fique dentro dessa classe, já que só ela irá usar.
+    // Faz mais sentido que o enum Dificuldade fique dentro dessa classe, já que só ela irá usar.
     public enum Dificuldade{
         FACIL {
             @Override
@@ -29,8 +29,8 @@ public class NivelJogo {
             return super.toString();
         }
     }
-    private int multiBase;
-    private Dificuldade dificuldade;
+    private final int multiBase;
+    private final Dificuldade dificuldade;
 
     public NivelJogo(int multiBase, Dificuldade dificuldade) {
         this.multiBase = multiBase;
